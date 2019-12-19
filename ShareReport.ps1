@@ -1,4 +1,10 @@
-﻿$CurrentDateFormat1 = Get-Date -Format "yyyyMMdd"
+# File: ShareReport.ps1
+# Create by: Nick Donathan
+# Description: Get free space of all shares on a list of servers ('ListofServers.txt')
+# This should not be used in production due to lack of data validation and testing. 
+# USE WITH CAUTION
+
+$CurrentDateFormat1 = Get-Date -Format "yyyyMMdd"
 $CSVExportPath = "StorageReport-Exported_" + $CurrentDateFormat1 + ".temp"
 $CorrectedCSVExportPath = "StorageReport-Exported_" + $CurrentDateFormat1 + ".csv"
 $ListofServers = "ListofServers.txt"
