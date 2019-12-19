@@ -1,2 +1,2 @@
 # PoSH-ShareReport
-Simple share report tool using PowerShell.
+Simple share report script using PowerShell.
